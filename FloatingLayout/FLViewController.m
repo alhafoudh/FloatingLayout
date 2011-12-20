@@ -9,6 +9,9 @@
 #import "FLViewController.h"
 
 @implementation FLViewController
+@synthesize layoutView;
+@synthesize topView;
+@synthesize bottomView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,10 +25,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+  
+  [self.layoutView addConstraint:[JWConstraint 
+                                            constraintWithView:self.bottomView
+                                            attribute:kJWConstraintMinY
+                                            relativeTo:self.topView
+                                            attribute:kJWConstraintMaxY offset:10.0]];
 }
 
 - (void)viewDidUnload
 {
+    [self setTopView:nil];
+    [self setBottomView:nil];
+  [self setLayoutView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

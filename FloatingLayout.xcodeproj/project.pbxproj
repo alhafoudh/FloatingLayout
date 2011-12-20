@@ -15,6 +15,10 @@
 		2BD9287814A0F6E900C74A92 /* FLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9287714A0F6E900C74A92 /* FLAppDelegate.m */; };
 		2BD9287B14A0F6E900C74A92 /* FLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9287A14A0F6E900C74A92 /* FLViewController.m */; };
 		2BD9287E14A0F6E900C74A92 /* FLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9287C14A0F6E900C74A92 /* FLViewController.xib */; };
+		2BD9288C14A0F6FF00C74A92 /* JWConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9288514A0F6FF00C74A92 /* JWConstraint.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BD9288D14A0F6FF00C74A92 /* JWConstraintGraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9288714A0F6FF00C74A92 /* JWConstraintGraphNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BD9288E14A0F6FF00C74A92 /* JWConstraintLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9288914A0F6FF00C74A92 /* JWConstraintLayoutView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BD9288F14A0F6FF00C74A92 /* JWWrapLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9288B14A0F6FF00C74A92 /* JWWrapLayoutView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,23 @@
 		2BD9286714A0F6E800C74A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BD9286914A0F6E800C74A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2BD9286B14A0F6E800C74A92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2BD9286F14A0F6E800C74A92 /* FloatingLayout-Info.plist */ = {isa = PBXFileReference; path = "FloatingLayout-Info.plist"; sourceTree = "<group>"; };
+		2BD9286F14A0F6E800C74A92 /* FloatingLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FloatingLayout-Info.plist"; sourceTree = "<group>"; };
 		2BD9287114A0F6E800C74A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2BD9287314A0F6E800C74A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BD9287514A0F6E900C74A92 /* FloatingLayout-Prefix.pch */ = {isa = PBXFileReference; path = "FloatingLayout-Prefix.pch"; sourceTree = "<group>"; };
-		2BD9287614A0F6E900C74A92 /* FLAppDelegate.h */ = {isa = PBXFileReference; path = FLAppDelegate.h; sourceTree = "<group>"; };
+		2BD9287514A0F6E900C74A92 /* FloatingLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FloatingLayout-Prefix.pch"; sourceTree = "<group>"; };
+		2BD9287614A0F6E900C74A92 /* FLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAppDelegate.h; sourceTree = "<group>"; };
 		2BD9287714A0F6E900C74A92 /* FLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAppDelegate.m; sourceTree = "<group>"; };
-		2BD9287914A0F6E900C74A92 /* FLViewController.h */ = {isa = PBXFileReference; path = FLViewController.h; sourceTree = "<group>"; };
+		2BD9287914A0F6E900C74A92 /* FLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLViewController.h; sourceTree = "<group>"; };
 		2BD9287A14A0F6E900C74A92 /* FLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLViewController.m; sourceTree = "<group>"; };
 		2BD9287D14A0F6E900C74A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLViewController.xib; sourceTree = "<group>"; };
+		2BD9288414A0F6FF00C74A92 /* JWConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWConstraint.h; sourceTree = "<group>"; };
+		2BD9288514A0F6FF00C74A92 /* JWConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWConstraint.m; sourceTree = "<group>"; };
+		2BD9288614A0F6FF00C74A92 /* JWConstraintGraphNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWConstraintGraphNode.h; sourceTree = "<group>"; };
+		2BD9288714A0F6FF00C74A92 /* JWConstraintGraphNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWConstraintGraphNode.m; sourceTree = "<group>"; };
+		2BD9288814A0F6FF00C74A92 /* JWConstraintLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWConstraintLayoutView.h; sourceTree = "<group>"; };
+		2BD9288914A0F6FF00C74A92 /* JWConstraintLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWConstraintLayoutView.m; sourceTree = "<group>"; };
+		2BD9288A14A0F6FF00C74A92 /* JWWrapLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWWrapLayoutView.h; sourceTree = "<group>"; };
+		2BD9288B14A0F6FF00C74A92 /* JWWrapLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWWrapLayoutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,14 @@
 		2BD9286D14A0F6E800C74A92 /* FloatingLayout */ = {
 			isa = PBXGroup;
 			children = (
+				2BD9288414A0F6FF00C74A92 /* JWConstraint.h */,
+				2BD9288514A0F6FF00C74A92 /* JWConstraint.m */,
+				2BD9288614A0F6FF00C74A92 /* JWConstraintGraphNode.h */,
+				2BD9288714A0F6FF00C74A92 /* JWConstraintGraphNode.m */,
+				2BD9288814A0F6FF00C74A92 /* JWConstraintLayoutView.h */,
+				2BD9288914A0F6FF00C74A92 /* JWConstraintLayoutView.m */,
+				2BD9288A14A0F6FF00C74A92 /* JWWrapLayoutView.h */,
+				2BD9288B14A0F6FF00C74A92 /* JWWrapLayoutView.m */,
 				2BD9287614A0F6E900C74A92 /* FLAppDelegate.h */,
 				2BD9287714A0F6E900C74A92 /* FLAppDelegate.m */,
 				2BD9287914A0F6E900C74A92 /* FLViewController.h */,
@@ -163,6 +183,10 @@
 				2BD9287414A0F6E800C74A92 /* main.m in Sources */,
 				2BD9287814A0F6E900C74A92 /* FLAppDelegate.m in Sources */,
 				2BD9287B14A0F6E900C74A92 /* FLViewController.m in Sources */,
+				2BD9288C14A0F6FF00C74A92 /* JWConstraint.m in Sources */,
+				2BD9288D14A0F6FF00C74A92 /* JWConstraintGraphNode.m in Sources */,
+				2BD9288E14A0F6FF00C74A92 /* JWConstraintLayoutView.m in Sources */,
+				2BD9288F14A0F6FF00C74A92 /* JWWrapLayoutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

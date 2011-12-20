@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import "JWConstraint.h"
+#import "JWConstraintLayoutView.h"
+
 @interface FLViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet JWConstraintLayoutView *layoutView;
+
+@property (strong, nonatomic) IBOutlet UIView *topView;
+@property (strong, nonatomic) IBOutlet UIView *bottomView;
 
 @end
